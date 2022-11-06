@@ -1,0 +1,26 @@
+.Container{
+    display: flex;
+    min-width: 300px;
+    min-height:50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin:30px;
+    direction:row ;
+    align-items: center;
+
+
+
+}
+.child{
+    display: flex;
+    direction:column;
+    /* align-items:space-betwee; */
+    justify-content: space-between;
+    position: absolute;
+}
+ 
+
+h6{
+position: relative;
+}
